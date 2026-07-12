@@ -12,6 +12,8 @@ class Program:
     def show_logo(self):
         print(f"{self.logo}")
     def launch(self):
+        print(self.logo)
+        print(self.version)
         self.launch_prog()
     def show_all_programs(self):
         print(self.program_list) 

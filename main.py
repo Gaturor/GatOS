@@ -16,6 +16,11 @@ def main():
             break
         elif user_input == 'calc':
             calcul.launch()
+
+        elif user_input == 'help' or user_input == 'h':
+            print("type quit - to exit the program\ntype help - to help\ntype calc - to start Calculator\ntype prog - to show all programs")
+        elif user_input == "prog":
+            calcul.show_all_programs()
         else:
             print("type help - to help")
 
