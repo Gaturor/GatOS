@@ -19,5 +19,5 @@ def main():
         else:
             print("type help - to help")
 
-if __name__ == __main__:
+if __name__ == "__main__":
     main()
