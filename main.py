@@ -9,11 +9,15 @@ pc = input("Enter pc name: ")
 
 user_pc = new_user(user, pc)
 
-while 1:
-    user_input = input(f'{user_pc}>> ').lower()
-    if user_input == "q" or user_input == "quit":
-        break
-    elif user_input == 'calc':
-        calcul.launch()
-    else:
-        print("type help - to help")
+def main():
+    while 1:
+        user_input = input(f'{user_pc}>> ').lower()
+        if user_input == "q" or user_input == "quit":
+            break
+        elif user_input == 'calc':
+            calcul.launch()
+        else:
+            print("type help - to help")
+
+if __name__ == __main__:
+    main()
